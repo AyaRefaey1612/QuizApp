@@ -1,0 +1,123 @@
+[
+    {
+    "title": "HTML stands for ?",
+    "answers":["HighText Machine Language", "HyperText and links Markup Language", "HyperText Markup Language", "None of these"],
+    "theRightAnswer":"HyperText Markup Language"
+    },
+
+    {
+    "title": "Which of the following element is responsible for making the text bold in HTML?",
+    "answers":["&lt;pre&gt;", "&lt;a&gt;", "&lt;b&gt;", "&lt;br&gt;" ],
+    "theRightAnswer": "&lt;b&gt;" 
+    },
+
+    {
+    "title": "Which of the following tag is used for inserting the largest heading in HTML?",
+    "answers":["&lt;h3&gt;", "&lt;h1&gt;", "&lt;h5&gt;", "&lt;h6&gt;"],
+    "theRightAnswer": "&lt;h1&gt;" 
+    },
+
+    {
+    "title": "Which of the following tag is used to insert a line-break in HTML?",
+    "answers":["&lt;br&gt;", "&lt;a&gt;", "&lt;pre&gt;", "&lt;b&gt;"],
+    "theRightAnswer":"&lt;br&gt;" 
+    },
+
+    
+    {
+    "title": "How to create an unordered list (a list with the list items in bullets) in HTML?",
+    "answers":["&lt;ul&gt;", "&lt;ol&gt;" ,"&lt;li&gt;" ,"&lt;i&gt;"],
+    "theRightAnswer":"&lt;ul&gt;" 
+    },
+
+    {
+    "title": "Which character is used to represent the closing of a tag in HTML?",
+    "answers":["\\", "!", "/", "." ],
+    "theRightAnswer":"/"  
+    },
+    
+    {
+    "title": "How to create a hyperlink in HTML?",
+    "answers":["&lt;a href = 'www.javatpoint.com'&gt; javaTpoint.com &lt;/a&gt;","&lt;a url = 'www.javatpoint.com'javaTpoint.com /a&gt;!", "&lt;a link = 'www.javatpoint.com'&gt; javaTpoint.com &lt;/a&gt;", "&lt;a&gt; www.javatpoint.com &lt;javaTpoint.com /a&gt;"],
+    "theRightAnswer":"&lt;a href = 'www.javatpoint.com'&gt; javaTpoint.com &lt;/a&gt;"
+    },
+
+    {
+    "title": "How to create an ordered list (a list with the list items in numbers) in HTML?",
+    "answers":["&lt;ul&gt;", "&lt;ol&gt;", "&lt;li&gt;", "&lt;i&gt;"],
+    "theRightAnswer":"&lt;ol&gt;"
+    },
+
+    {
+    "title": "Which of the following element is responsible for making the text italic in HTML?",
+    "answers":["&lt;i&gt;", "&lt;italic&gt;", "&lt;it&gt;", "&lt;pre&gt;"],
+    "theRightAnswer":"&lt;i&gt;"
+    },
+
+    {
+      "title": "What is the correct syntax of doctype in HTML5?",
+      "answers":["&lt;/doctype html&gt;", "&lt;doctype html&gt;", "&lt;doctype html!&gt;", "&lt;!doctype html&gt;"],
+      "theRightAnswer":"&lt;!doctype html&gt;"
+    },
+
+    {
+      "title": "Which of the following is used to read an HTML page and render it?",
+      "answers":["Web server", "Web network", "Web browser", "Web matrix"],
+      "theRightAnswer":"Web network"
+    },
+
+    {
+      "title": "Which of the following is used to read an HTML page and render it?",
+      "answers":["Language dependent application programming", "Hierarchy of objects in ASP.NET", " Application programming interface", "Convention for representing and interacting with objects in html documents"],
+      "theRightAnswer":"Web network"
+    },
+
+    {
+      "title": "What is DOM in HTML?",
+      "answers":["Web server", "Web network", "Web browser", "Web matrix"],
+      "theRightAnswer":"Convention for representing and interacting with objects in html documents"
+    },
+
+    {
+      "title": "In which part of the HTML metadata is contained?",
+      "answers":["head tag", "title tag", "html tag", "body tag"],
+      "theRightAnswer":"head tag"
+    },
+
+    {
+      "title": "Which element is used to get highlighted text in HTML5?",
+      "answers":["&lt;u&gt;", "&lt;mark&gt;", "&lt;highlight&gt;", "&lt;b&gt;"],
+      "theRightAnswer":"&lt;mark>"
+    },
+
+    {
+      "title": "Which of the following is not a HTML5 tag?",
+      "answers":["&lt;track&gt", "&lt;video&gt;", "&lt;slider&gt;", "&lt;source&gt;"],
+      "theRightAnswer":"&lt;slider&gt;"
+    },
+
+    {
+      "title": "Which of the following is not the element associated with the HTML table layout?",
+      "answers":["alignment", "color", "size", "spanning"],
+      "theRightAnswer":"color"
+    },
+
+    {
+      "title": "Which element is used for or styling HTML5 layout?",
+      "answers":["CSS", "jQuery", "JavaScript", "PHP"],
+      "theRightAnswer":"CSS"
+    },
+
+    {
+      "title": "Which of the following HTML tag is used to add a row in a table?",
+      "answers":["&lt;th&gt;", "&lt;td&gt;", "&lt;tr&gt;", "&lt;tt&gt;"],
+      "theRightAnswer":"&lt;tr&gt;"
+    },
+
+    {
+      "title": "What is the work of <address> element in HTML5?",
+      "answers":["contains IP address", "contains home address", "contains url", "contains contact details for author"],
+      "theRightAnswer":"&lt;tr&gt;"
+    }
+]
+
