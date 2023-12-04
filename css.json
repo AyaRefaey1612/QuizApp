@@ -1,0 +1,13 @@
+[
+{
+  "title":"What is CSS?",
+  "answers":["CSS is a style sheet language", "CSS is designed to separate the presentation and content, including layout, colors, and fonts", "CSS is the language used to style the HTML documents", "All of the mentioned" ],
+  "theRightAnswer":["All of the mentioned"]
+},
+
+{
+    "title":" Which of the following tag is used to embed css in html page?",
+    "answers":["$lt;css$gt;", "<!DOCTYPE html>", "<script>", "<style>"],
+    "theRightAnswer":["All of the mentioned"]
+  }
+]
