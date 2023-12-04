@@ -254,7 +254,7 @@ document.querySelector(".quiz-container").style.display="block";
 // end of getting and setting the elements
 
 // Fetch Online Data
-fetch('https://gist.githubusercontent.com/AyaRefaeyy1234/522e320fc43a4f2adc9a4d463818fffa/raw/7b5615ce57d70d5f3d1d375ff14e20ea4796fc38/json')
+fetch('https://raw.githubusercontent.com/AyaRefaey1612/QuizApp/main/css.json')
 .then((respone)=>(respone.json()))
 .then((repose)=>{
  console.log(repose);
