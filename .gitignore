@@ -1,4 +1,4 @@
 *.log
-\!file.log
+!file.log
 new/ 
 
