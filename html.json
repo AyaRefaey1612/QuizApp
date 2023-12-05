@@ -67,14 +67,8 @@
     },
 
     {
-      "title": "Which of the following is used to read an HTML page and render it?",
-      "answers":["Language dependent application programming", "Hierarchy of objects in ASP.NET", " Application programming interface", "Convention for representing and interacting with objects in html documents"],
-      "theRightAnswer":"Web network"
-    },
-
-    {
       "title": "What is DOM in HTML?",
-      "answers":["Web server", "Web network", "Web browser", "Web matrix"],
+      "answers":["Language dependent application programming", "Hierarchy of objects in ASP.NET", "Application programming interface", "Convention for representing and interacting with objects in html documents"],
       "theRightAnswer":"Convention for representing and interacting with objects in html documents"
     },
 
@@ -87,7 +81,7 @@
     {
       "title": "Which element is used to get highlighted text in HTML5?",
       "answers":["&lt;u&gt;", "&lt;mark&gt;", "&lt;highlight&gt;", "&lt;b&gt;"],
-      "theRightAnswer":"&lt;mark>"
+      "theRightAnswer":"&lt;mark&gt"
     },
 
     {
@@ -118,6 +112,12 @@
       "title": "What is the work of <address> element in HTML5?",
       "answers":["contains IP address", "contains home address", "contains url", "contains contact details for author"],
       "theRightAnswer":"&lt;tr&gt;"
+    },
+
+    {
+      "title": " Which attribute specifies a unique alphanumeric identifier to be associated with an element?",
+      "answers":["type", "article", "id", "class"],
+      "theRightAnswer":"id"
     }
 ]
 
