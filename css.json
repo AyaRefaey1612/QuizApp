@@ -8,7 +8,7 @@
     {
      "title":"Which of the following tag is used to embed css in html page?",
      "answers":["&lt;css&gt;", "&lt;!DOCTYPE html&gt;", "&lt;script&gt;", "&lt;style&gt;"],
-     "theRightAnswer":"All of the mentioned"
+     "theRightAnswer":"&lt;style&gt;"
     },
 
     {

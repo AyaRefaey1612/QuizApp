@@ -12,11 +12,11 @@ let noOfShuffle=0;
 document.querySelector(".quiz-container").style.display="none"; 
 
  document.querySelector(".html").onclick=function(){
-  buildQuestions("html.json");
+  buildQuestions("https://raw.githubusercontent.com/AyaRefaey1612/QuizApp/main/html.json");
   document.querySelector(".category").innerHTML="Category: HTML";
  }
  document.querySelector(".css").onclick=function(){
-  buildQuestions("css.json");
+  buildQuestions("https://raw.githubusercontent.com/AyaRefaey1612/QuizApp/main/css.json");
   document.querySelector(".category").innerHTML="Category: CSS"
  }
 

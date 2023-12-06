@@ -111,7 +111,7 @@
     {
       "title": "What is the work of <address> element in HTML5?",
       "answers":["contains IP address", "contains home address", "contains url", "contains contact details for author"],
-      "theRightAnswer":"&lt;tr&gt;"
+      "theRightAnswer":"contains contact details for author"
     },
 
     {
