@@ -32,7 +32,7 @@
     {
      "title":"Which of the following type of HTML tag is used to define an internal style sheet?",
      "answers":["&lt;script&gt;", "&lt;link&gt", "&lt;class&gt", "&lt;style&gt"],
-     "theRightAnswer":"&lt;style&gt"
+     "theRightAnswer":"&lt;style&gt;"
     },
 
     {
