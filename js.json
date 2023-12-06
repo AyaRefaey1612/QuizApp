@@ -13,7 +13,7 @@
 
     { 
     "title":"Where is Client-side JavaScript code is embedded within HTML documents?",
-    "answers":["A URL that uses the special javascript:code", "A URL that uses the special javascript:protocol", " A URL that uses the special javascript:encoding", "A URL that uses the special javascript:stack"],
+    "answers":["A URL that uses the special javascript:code", "A URL that uses the special javascript:protocol", "A URL that uses the special javascript:encoding", "A URL that uses the special javascript:stack"],
     "theRightAnswer":"A URL that uses the special javascript:protocol"
     },
 
@@ -43,7 +43,7 @@
 
     { 
         "title":"What is the basic difference between JavaScript and Java?",
-        "answers":["Functions are considered as fields", "Functions are values, and there is no hard distinction between methods and fields", "Variables are specific", " There is no difference"],
+        "answers":["Functions are considered as fields", "Functions are values, and there is no hard distinction between methods and fields", "Variables are specific", "There is no difference"],
         "theRightAnswer":"Functions are values, and there is no hard distinction between methods and fields"
     },
 
@@ -55,7 +55,7 @@
 
     { 
     "title":"Which of the following methods/operation does javascript use instead of == and !=?",
-    "answers":["JavaScript uses equalto()", "JavaScript uses equals() and notequals() instead", "JavaScript uses bitwise checking", " JavaScript uses === and !== instead"],
+    "answers":["JavaScript uses equalto()", "JavaScript uses equals() and notequals() instead", "JavaScript uses bitwise checking", "JavaScript uses === and !== instead"],
     "theRightAnswer":"JavaScript uses === and !== instead"
     },
 
@@ -67,7 +67,7 @@
 
     { 
     "title":"Which of the following is not a framework?",
-    "answers":["JavaScript .NET", " JavaScript", "Cocoa JS", "jQuery"],
+    "answers":["JavaScript .NET", "JavaScript", "Cocoa JS", "jQuery"],
     "theRightAnswer":"JavaScript"
     },
 
@@ -110,7 +110,7 @@
     { 
     "title":"Suppose we have a text \"human\" that we want to convert into string without using the \"new\" operator. Which is the correct way from the following to do so:",
     "answers":["toString()", "String(human)", "String newvariable=\"human\"", "Both human.toString() and String(human)"],
-    "theRightAnswer":"if(a!==null)"
+    "theRightAnswer":"Both human.toString() and String(human)"
     },
 
     { 

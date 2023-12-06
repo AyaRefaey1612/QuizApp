@@ -15,9 +15,15 @@ document.querySelector(".quiz-container").style.display="none";
   buildQuestions("https://raw.githubusercontent.com/AyaRefaey1612/QuizApp/main/html.json");
   document.querySelector(".category").innerHTML="Category: HTML";
  }
+
  document.querySelector(".css").onclick=function(){
   buildQuestions("https://raw.githubusercontent.com/AyaRefaey1612/QuizApp/main/css.json");
   document.querySelector(".category").innerHTML="Category: CSS"
+ }
+
+ document.querySelector(".js").onclick=function(){
+  buildQuestions("https://raw.githubusercontent.com/AyaRefaey1612/QuizApp/main/js.json");
+  document.querySelector(".category").innerHTML="Category: JS"
  }
 
 function buildQuestions(link){
