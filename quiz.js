@@ -33,7 +33,6 @@ function buildQuestions(link){
 fetch(link)
 .then((respone)=>(respone.json()))
 .then((repose)=>{
- console.log(repose);
 //  start creat questions and answers
 let answers=document.createElement("div");
 let h2=document.createElement("h2");
@@ -105,7 +104,7 @@ questions.appendChild(answers);
 let array=Array.from(answers.children);
 setTimeout(() => {
   changeQuestion();
-}, 100);
+}, 50);
 
 
 //  start make questions and answers
@@ -134,17 +133,13 @@ function changeQuestion(){
     let answer4=Math.floor(Math.random()*repose[questionsShuffle].answers.length);
     lable4.innerHTML=repose[questionsShuffle].answers[answer4]; 
     repose[questionsShuffle].answers.splice(answer4,1)
-    console.log(`set noOfShuffle ${noOfShuffle}`);
     noOfShuffle=questionsShuffle;
-    console.log(`before noOfShuffle ${noOfShuffle}`);
     array.forEach(element => {
       element.children[0].onclick=function(){;
         theChosenAnswer=element.children[1].innerHTML;
-        console.log(`inner${repose[questionsShuffle].theRightAnswer}`);
-        console.log(`theChosenAnswer${theChosenAnswer}`);
-        if(theChosenAnswer === repose[noOfShuffle].theRightAnswer){
-          console.log("yes");
-        }
+        // if(theChosenAnswer === repose[noOfShuffle].theRightAnswer){
+          
+        // }
     }
     });
    
@@ -156,7 +151,6 @@ function changeQuestion(){
           array.forEach(element => {
               element.children[0].classList.remove("selected");
               e.target.classList.add("selected");
-              console.log(e.target.nextSibling.innerHTML)
               theChosenAnswer= e.target.nextSibling.innerHTML;
               
           });
@@ -164,7 +158,6 @@ function changeQuestion(){
       }
    })
    }else if(no === 9){
-       console.log('the end');
        clearInterval(timer)
        theEnd();
    }
@@ -176,8 +169,6 @@ var timer=setInterval(myIntervalone,1000);
 function myIntervalone(){
   counter.innerHTML=counter.innerHTML-1;
   if(parseInt(counter.innerHTML) === 0){
-     console.log("change");
-     console.log(`time ${noOfShuffle}`);
      checkerquestions();
      
   };
@@ -193,14 +184,8 @@ submit.onclick=function(){
      if(!element.children[0].classList.contains("selected")){
       console.log('must select')
      }else{   
-      console.log(`after noOfShuffle ${noOfShuffle}`);
-      console.log(theChosenAnswer);
       if(theChosenAnswer === repose[noOfShuffle].theRightAnswer){
-        console.log(`${theChosenAnswer} === ${ repose[noOfShuffle].theRightAnswer}`)
             points+=1;
-            console.log(`no of points is${points}`);
-        }else{
-            console.log(`${theChosenAnswer} !== ${ repose[noOfShuffle].theRightAnswer}`);
         }
         checkerquestions();
      }
@@ -247,6 +232,7 @@ function theEnd(){
     }
     result.style.cssText='background-color: #fff;padding: 20px;display: flex;justify-content: space-between;'
     document.querySelector(".quiz-container").style.cssText='background-color: #eee;width: 791px;height: 206px;padding: 20px;margin: 13px auto;'
+    
 }
 
 })
