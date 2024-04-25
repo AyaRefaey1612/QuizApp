@@ -114,10 +114,11 @@ div.quiz-container.end{
   }
 
   .quiz-container {
-    width: 315px;
-    height: 465px;
+    width: 341px;
+    height: 588px;
     margin: 0 auto;
     padding: 9px;
+}
   }
   h2{
     font-size: 20px;
@@ -127,13 +128,13 @@ div.quiz-container.end{
     line-height: 1;
   }
   .submit{
-    bottom: 14px;
+    top: 69px;
     position: relative;
   }
 
   .foot{
     padding: 8px;
-    bottom: 19px;
+    top: 75px;
     position: relative;
   }
 
