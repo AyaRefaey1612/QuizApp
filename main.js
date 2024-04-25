@@ -219,6 +219,7 @@ function theEnd(){
     let result=document.createElement("div");
      result.className="result"; 
      document.querySelector(".quiz-container").appendChild(result);
+     document.querySelector(".quiz-container").classList.add('end')
     if(points <=3 ){
         result.innerHTML=`<span>bad</span>,${points} from 9`;
         document.querySelector('.result span').style.cssText='display:contents;color:red;'; 
@@ -231,10 +232,9 @@ function theEnd(){
         
     }
     result.style.cssText='background-color: #fff;padding: 20px;display: flex;justify-content: space-between;'
-    document.querySelector(".quiz-container").style.cssText='background-color: #eee;width: 791px;height: 206px;padding: 20px;margin: 13px auto;'
+    document.querySelector(".quiz-container").style.cssText='background-color: #eee;height: 206px;padding: 20px;margin: 13px auto;'
     
 }
 
 })
 };
-
